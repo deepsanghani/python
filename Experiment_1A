@@ -1,0 +1,12 @@
+cover_price=24.95
+discount=0.4
+shipping=3
+additional=0.75
+total=60
+
+coverprice=(cover_price-discount)*total
+print("cover price:"coverprice)
+shippingcost=shipping+(additional*(total-1))
+print("shipping cost:"shippingcost)
+total_cost=(cover_price-discount)*total+shippingcost
+print("total cost:"total_cost)
