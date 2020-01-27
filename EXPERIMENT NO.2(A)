@@ -1,0 +1,11 @@
+#a)Write a Python program to get a
+#string made of the first 2 and the last
+#2 chars from a given a string.
+
+def print_string(stri):
+	if len(stri)<2:
+		return ''
+	else:
+	    print(stri[0:2]+stri[-2:])
+string1="hello world"
+print_string(string1)
